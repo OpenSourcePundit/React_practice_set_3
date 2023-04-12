@@ -6,7 +6,8 @@ import {
   vegetables,
   bouquet,
   DonationData,
-  cars
+  cars,
+  studentData
 } from "./objects";
 import { PS1_IMAGEHEIGHTWIDTH } from "./PS1_IMAGEHEIGHTWIDTH";
 import { PS2_CARTOON } from "./PS2_CARTOON";
@@ -18,6 +19,7 @@ import { PS6_BOUQUET } from "./PS6_BOUQUET";
 import { PS7_BOUQUET } from "./PS7_BOUQUET";
 import { PS8_DONATION } from "./PS8_DONATION";
 import { PS9_CARS } from "./PS9_CARS";
+import { PS10_STUDENTS } from "./PS10_STUDENTS";
 export default function App() {
   return (
     <div className="App">
@@ -36,6 +38,7 @@ export default function App() {
       <PS7_BOUQUET flowers1={bouquet} />
       <PS8_DONATION donationData={DonationData} />
       <PS9_CARS car={cars} />
+      <PS10_STUDENTS student={studentData} />
     </div>
   );
 }
