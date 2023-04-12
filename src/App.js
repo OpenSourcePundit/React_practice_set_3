@@ -1,11 +1,11 @@
-import { link, height, width, cartoons, vegetables } from "./objects";
+import { link, height, width, cartoons, vegetables, bouquet } from "./objects";
 import { PS1_IMAGEHEIGHTWIDTH } from "./PS1_IMAGEHEIGHTWIDTH";
 import { PS2_CARTOON } from "./PS2_CARTOON";
 import { PS3_CARTOON_EVEN } from "./PS3_CARTOON_EVEN";
 import { PS4_CARTOON_INTEL } from "./PS4_CARTOON_INTEL";
 import "./styles.css";
 import { PS5_VEGETABLES } from "./PS5_VEGETABLES";
-
+import { PS6_BOUQUET } from "./PS6_BOUQUET";
 export default function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ export default function App() {
         )}
       />
       <PS5_VEGETABLES veg={vegetables} />
+      <PS6_BOUQUET flowers1={bouquet} />
     </div>
   );
 }
