@@ -6,7 +6,7 @@ export const PS7_BOUQUET = ({ flowers1 }) => {
         .map(({ id, flowers }) => {
           return (
             <li key={id}>
-              {flowers.map(({ obj }) => {
+              {flowers.map((obj) => {
                 return <p>--{obj}--</p>;
               })}
             </li>
