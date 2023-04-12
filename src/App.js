@@ -6,6 +6,8 @@ import { PS4_CARTOON_INTEL } from "./PS4_CARTOON_INTEL";
 import "./styles.css";
 import { PS5_VEGETABLES } from "./PS5_VEGETABLES";
 import { PS6_BOUQUET } from "./PS6_BOUQUET";
+import { PS7_BOUQUET } from "./PS7_BOUQUET";
+
 export default function App() {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ export default function App() {
       />
       <PS5_VEGETABLES veg={vegetables} />
       <PS6_BOUQUET flowers1={bouquet} />
+      <PS7_BOUQUET flowers1={bouquet} />
     </div>
   );
 }

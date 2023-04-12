@@ -69,8 +69,20 @@ export const bouquet = [
   },
   {
     id: 2,
-    flowers: ["snapdragon", "sunflower"],
+    flowers: ["snapdragon", "sunflower", "kutte"],
     totalFlowers: 10,
     price: 3400
+  },
+  {
+    id: 3,
+    flowers: ["snapdragon1", "sunflower1"],
+    totalFlowers: 13,
+    price: 2400
+  },
+  {
+    id: 4,
+    flowers: ["snapdragon2", "sunflower2"],
+    totalFlowers: 19,
+    price: 3300
   }
 ];
